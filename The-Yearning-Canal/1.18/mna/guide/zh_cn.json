@@ -19,16 +19,16 @@
 		}, {
 			"type": "text",
 			"json": [{
-				"text": "This codex is your guide on how to do the things within the mod.  It contains every recipe, mechanic, part, and how to make them.\n\nIt's intended to pair with the "
+				"text": "这本古籍将会指导你如何游玩本模组的内容。它记录了所有模组内的配方、器械、组分，以及获取这些东西的方法。\n\n本书最好与"
 			}, {
-				"text": "Occulus",
+				"text": "奥秘之眼",
 				"color": "blue",
 				"link": {
 					"type": "recipe",
 					"path": "mna:occulus"
 				}
 			}, {
-				"text": ", which is a block that shows you what you've unlocked at a given tier as well as tells you what you need to do in order to advance.  Use that as a guide to 'what' you have unlocked, and this book as 'how'.\n\nThe Codex will only display things that you have unlocked at your current tier."
+				"text": "搭配使用，奥秘之眼将会显示特定等阶所解锁的内容，以及进阶的具体方法。简单来说，奥秘之眼会告诉你你已经解锁了哪些内容，而奥秘古籍则是告诉你这些内容的具体操作方法。\n\n古籍中只会显示你当前等阶已解锁的全部内容。"
 			}]
 		}, {
 			"type": "image",
@@ -1767,7 +1767,7 @@
 	"Shadow Soul": {
 		"index": 0,
 		"category": "rituals",
-		"tier": 4,
+		"tier": 3,
 		"sections": [{
 			"type": "title",
 			"value": "影魂仪式"
@@ -2192,39 +2192,39 @@
 		}, {
 			"type": "text",
 			"json": [{
-				"text": "The sigil shape will create a sigil in the world at the targeted point.  The range attribute will change how far away you can place the sigil. The radius attribute will change the size of the sigil's effect when triggered.\n\nThe magnitude effect changes what will trigger the sigil.\nMagnitude 1: Anything\nMagnitude 2: Anything living\nMagnitude 3: Players only.\n\nDamage will always trigger the sigil.\n\n"
+				"text": "形状：印记会在你所指的目标地点生成一个印记。法术距离属性影响放置的距离，半径属性将会影响印记被触发时的影响半径。\n\n增强效果将会改变印记触发的条件。\n增强 1: 任何\n增强 2: 任何活物\n增强 3: 只有玩家\n\n对印记造成伤害总是会触发印记。\n\n"
 			}, {
-				"text": "Sigils can be made "
+				"text": "你也可以施放出"
 			}, {
-				"text": "permanent",
+				"text": "永久版本",
 				"color": "blue"
 			}, {
-				"text": " by casting them on a "
+				"text": "的印记，只需将法术对着"
 			}, {
-				"text": "metal ritual rune",
+				"text": "金属仪式符文",
 				"color": "dark_purple"
 			}, {
-				"text": ".  When this is done, the Sigil will gain charges and a cooldown.  Charges can be replenished by either "
+				"text": "施放即可。印记需要充能后方可生效，并且还会有一段冷却时间。充能有两种方法，首先，你可以对着金属仪式符文"
 			}, {
-				"text": "casting additional Sigil spells (contents do not matter)",
+				"text": "再次施放印记法术（无论效果，只需为印记法术）",
 				"color": "blue"
 			}, {
-				"text": " on to an existing sigil, or by "
+				"text": "，又或者，你可以"
 			}, {
-				"text": "placing them within 16 blocks of a Mana Crystal (line of sight not required)",
+				"text": "在印记周围的16格范围内放置一块魔力晶体（有遮挡物也行）",
 				"color": "dark_purple"
 			}, {
-				"text": ".  Permanent Sigils can hold up to "
+				"text": "，魔力晶体会自行为仪式符文充能。永久印记最多可承载"
 			}, {
-				"text": "10 charges",
+				"text": "10层充能",
 				"color": "blue"
 			}, {
-				"text": ", and will go into cooldown mode for "
+				"text": "，每次触发后的冷却时间为"
 			}, {
-				"text": "3 seconds",
+				"text": "3秒",
 				"color": "dark_purple"
 			}, {
-				"text": " once triggered, during which time the sigil will flash.  When looking at a Sigil, if you are the caster, you will be shown how many charges it has left.  Attacking a sigil will destroy it, and will set it off.  Sigils can be permanently made less visible by casting an invisibility spell on them."
+				"text": "一旦印记触发，它自身会在触发期间不断闪烁。当你看向印记时，如果你是此印记法术的施放者，你则可以看到印记中还有多少层充能。攻击印记会将其破坏掉，其上的效果自然也会消散。你也可以对着印记施放隐形法术，这样印记就很难被发现了，这一效果也是永久性的。"
 			}]
 		}],
 		"related_recipes": [{
@@ -2475,7 +2475,7 @@
 		}],
 		"related_recipes": [{
 			"type": "spell_part",
-			"location": "mna:components/pack"
+			"location": "mna:components/fill_hole"
 		}]
 	},
 	"Component: Bind Wounds": {
@@ -3989,7 +3989,7 @@
 	},
 	"Rune: Projection": {
 		"index": -1,
-		"category": "artifice",
+		"category": "runesmithing",
 		"tier": 3,
 		"sections": [{
 			"type": "title",
@@ -4007,6 +4007,77 @@
 		}, {
 			"type": "runescribing",
 			"location": "mna:runescribing/runescribe_projection"
+		}]
+	},
+	"Construct Frame Patterns": {
+		"index": 9,
+		"category": "runesmithing",
+		"tier": 2,
+		"sections": [{
+			"type": "title",
+			"value": "构装体构架样板"
+		}, {
+			"type": "text",
+			"value": "制作构装体时，你可能想为你的构装体加装更为强力的部件，这是因为部件越好，构装体承载活化魔法的能力便越是出色。"
+		}],
+		"related_recipes": [{
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_axe"
+		}, {
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_claw"
+		}, {
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_hammer"
+		}, {
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_head"
+		}, {
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_hips"
+		}, {
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_rod"
+		}, {
+			"type": "runescribing",
+			"location": "mna:runescribing/constructs/runescribe_construct_torso"
+		}]
+	},
+	"Construct Frames": {
+		"index": 10,
+		"category": "runesmithing",
+		"tier": 2,
+		"sections": [{
+			"type": "title",
+			"value": "构装体构架"
+		}, {
+			"type": "text",
+			"value": "构架制作完毕后，我需要向 其上 锻入符文。这和符文锻造的流程差不多，只是需要将后者用到的纯净温特姆锭换为超热纯净温特姆锭。"
+		}],
+		"related_recipes": [{
+			"location": "mna:arcanefurnace/superheated_purified_vinteum_ingot",
+			"type": "arcane_furnace"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_axe"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_claw"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_hammer"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_head"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_hips"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_rod"
+		}, {
+			"type": "runesmithing",
+			"location": "mna:runeforging/constructs/runeforge_construct_torso"
 		}]
 	},
 	"Recharging Items": {
@@ -4439,7 +4510,7 @@
 			"value": "转写桌"
 		}, {
 			"type": "text",
-			"value": "在转写桌中，你可以将你以定式熟记的法术写入到某些物品中，例如雕符或是法杖。经过如此处理过的雕符会变为一种只能使用一次的物品，使用后，无需消耗魔力便可施放出其中写入的法术。而被写入法术的法杖则和正常法杖没什么不同，都得消耗魔力才能施放法术。The spell selected is the active spell within the Book of Rote I place in the table, and it needs eldrin power corresponding to the highest affinity of the spell being transferred."
+			"value": "在转写桌中，你可以将你以定式熟记的法术写入到某些物品中，例如雕符或是法杖。经过如此处理过的雕符会变为一种只能使用一次的物品，使用后，无需消耗魔力便可施放出其中写入的法术。而被写入法术的法杖则和正常法杖没什么不同。The spell selected is the active spell within the Book of Rote I place in the table, and it needs eldrin power corresponding to the highest affinity of the spell being transferred."
 		}],
 		"related_recipes": [{
 			"type": "manaweaving_altar",
@@ -5431,7 +5502,7 @@
 			"newPage": true
 		}, {
 			"type": "text",
-			"value": "金制构装体与铁制的较为相似，只不过金制构装体的击退抗性会稍微高一些，但代价就是自身的血量。金制构装体会在等阶 3 时解锁。金制装体在施放法术方面更为出色。"
+			"value": "金制构装体与铁制的较为相似，只不过金制构装体的击退抗性会稍微高一些，但代价就是自身的血量。金制构装体会在等阶 3 时解锁。金制构装体在施放法术方面更为出色。"
 		}, {
 			"type": "title",
 			"value": "黑曜石",
@@ -5445,7 +5516,7 @@
 			"newPage": true
 		}, {
 			"type": "text",
-			"value": "钻石构装体的恢复能力不错，浮性也不算太差。它的移动也想当迅捷，只可惜完全没有击退抗性。钻石构装体会在等阶 5 时解锁。钻石构装体能力全面，乃是“万金油”，可以胜任几乎任何任务，但相较于特定领域的专家还是稍逊一筹。"
+			"value": "钻石构装体的恢复能力不错，浮性也不算太差。它的移动也相当迅捷，只可惜完全没有击退抗性。钻石构装体会在等阶 5 时解锁。钻石构装体能力全面，乃是“万金油”，可以胜任几乎任何任务，但相较于特定领域的专家还是稍逊一筹。"
 		}],
 		"related_recipes": [{
 			"type": "crafting",
@@ -5579,7 +5650,7 @@
 			"value": "委派站"
 		}, {
 			"type": "text",
-			"value": "委派站是一个方块，你可以利用它为你的构装体创建出复杂的逻辑。现在，让我们开始着手创建吧！首先你需要将左侧菜单内的任务拖拽到中间的纸面上；然后，再点击左侧顶部的蓝色开始节点，并从中拖拽出起始线，并连接到任务左上方的黄色输入节点处。此操作意味着逻辑流开始运作。\n\n受到委派的构装体会循环执行委派站内的逻辑流。\n\n每个任务都有两个输出节点，顶部右侧的绿色节点以及绿色节点下方的红色节点。它们代表了实际任务中的输出内容，绿色节点意味着任务成功执行的输出，而红色的则代表了执行失败的输出。从这两个节点处同样可以拖拽出连接线，你可以将线连接到其他任务的输入节点，如此便可进一步延长逻辑链条。\n\n你可以将任务的输出连接到自身的输入上，如此便会构造出一个紧密循环。这种方法通常会运用在一些重复性工作上，使其在失败，或是构装体感动困惑（参见构装体智能章节）时停止之前的循环。"
+			"value": "委派站是一个方块，你可以利用它为你的构装体创建出复杂的逻辑。现在，让我们开始着手创建吧！首先你需要将左侧菜单内的任务拖拽到中间的纸面上；然后，再点击左侧顶部的蓝色开始节点，并从中拖拽出起始线，并连接到任务左上方的黄色输入节点处。此操作意味着逻辑流开始运作。\n\n受到委派的构装体会循环执行委派站内的逻辑流。\n\n每个任务都有两个输出节点，顶部右侧的绿色节点以及绿色节点下方的红色节点。它们代表了实际任务中的输出内容，绿色节点意味着任务成功执行的输出，而红色的则代表了执行失败的输出。从这两个节点处同样可以拖拽出连接线，你可以将线连接到其他任务的输入节点，如此便可进一步延长逻辑链条。\n\n你可以将任务的输出连接到自身的输入上，如此便会构造出一个紧密循环。这种方法通常会运用在一些重复性工作上，使其在失败，或是构装体感到困惑（参见构装体智能章节）时，停止之前的循环。"
 		}, {
 			"type": "text",
 			"value": "委派站内的绝大多数任务都有其参数。点击某个任务，即可在右侧查看到此任务可以控制的参数。一些任务的参数需要物品，而其他的那些则是些按钮/复选框/滑块。若是某些参数需要放入物品，你则可以向其中放入幽灵物品，只需要你将物品栏中的某个物品拿起，并点一下参数槽位即可。物品的数据将会被复制进去。"
@@ -6177,7 +6248,7 @@
 		}],
 		"related_recipes": [{
 			"type": "crafting",
-			"locations": ["mna:wickerwood_constructs/wickerwood_bladed_arm_left", "mna:wickerwood_constructs/wickerwood_bladed_arm_right"]
+			"locations": ["mna:wickerwood_constructs/wickerwood_blade_arm_left", "mna:wickerwood_constructs/wickerwood_blade_arm_right"]
 		}, {
 			"type": "manaweaving_altar",
 			"locations": ["mna:manaweaving/constructs/wood/wood_bladed_arm_left", "mna:manaweaving/constructs/stone/stone_bladed_arm_left", "mna:manaweaving/constructs/iron/iron_bladed_arm_left", "mna:manaweaving/constructs/gold/gold_bladed_arm_left"]
