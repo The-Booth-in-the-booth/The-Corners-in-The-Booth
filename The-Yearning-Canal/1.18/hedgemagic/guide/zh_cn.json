@@ -1,0 +1,219 @@
+{
+  "Activation Chalks": {
+    "index": -1,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "奥术粉笔"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "将一把温特姆粉末与一些红石粉混合在一起，再加入一小撮糖，最终会产出一种略带魔法性质的材料。接着，再将其放在营火上稍稍烘烤，便会产出一种奥术粉笔灰。它可以洒在符文上，启动一些初级仪式。\r\n\r\n当你使用魔法材料的经验愈发丰富后，你也许能够制造出改良的粉笔，它能够启动更强大的仪式，甚至能模仿某一敌对派别的召唤。 "
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "hedgemagic:raw_chalk"
+      },
+      {
+        "type": "campfire",
+        "location": "hedgemagic:rudimentary_chalk"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "hedgemagic:manaweaving/minor_chalk"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "hedgemagic:manaweaving/lesser_chalk"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "hedgemagic:manaweaving/greater_chalk"
+      }
+    ]
+  },
+  "Lost Knowledge": {
+    "index": -1,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "失落之知仪式"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "古代文献中提到了一种失传已久的仪式，这种仪式曾被用于在空白的书中写入蕴藏于魔法池中的奥术知识。你虽然旅行已久，但还是没能找到这种液体，你也许可以向一池普通的水融入几份温特姆粉末，以期模仿这种液体的魔法性质。最后，再将一本未装订的书扔入其中。或许这足以模仿那失落的仪式，制作出你自己的奥秘古籍。"
+        }
+      },
+      {
+        "type": "image",
+        "location": "hedgemagic:textures/guide/lost_knowledge.png",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "实际上，你在读这篇文章时，便意味着你已经有了一本古籍。你应该不大会再去想搞来一本，所以这方法看看就好。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "hedgemagic:rituals/lost_knowledge"
+      }
+    ]
+  },
+  "New Life": {
+    "index": 1,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "新生仪式"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "以绿宝石为核心，再在周围摆放一些天然资源，依据摆放物的不同，或许能够诱惑不同种类的新生命进入这个世界。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "hedgemagic:rituals/new_life"
+      }
+    ]
+  },
+  "Crystalline Web": {
+    "index": 1,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "晶化网"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "有时，你只是多需要那么一块秘鸣石来制作物品，但你又不想分心去下矿。这时你可以使用晶化网。晶化网可以利用一对钻石块作为汇聚魔法仪式的催化剂，将少量的艾得灵能量强制转化为结晶形式。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "hedgemagic:rituals/crystalline_web"
+      }
+    ]
+  },
+  "Water Walking": {
+    "index": 10,
+    "category": "enchantments",
+    "sections": [
+      {
+        "type": "title",
+        "value": "水上行走"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "无论是利用魔法来辅助飞行，还是召唤神灵助阵，又或者是施放出艾得灵电弧攻击你的敌人，这些都是魔法在实际生活当中的极佳应用，但有时，你只是想创造一些更平凡的“奇迹”。例如，那令人惊异的水上行走附魔，可以让你在水上行走。\r\n\r\n不过你确实不应该尝试把任何东西变成酒。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "hedgemagic:manaweaving/water_walking"
+      }
+    ]
+  },
+  "Worldbound Rift": {
+    "index": 10,
+    "category": "artifice",
+    "sections": [
+      {
+        "type": "title",
+        "value": "现世裂隙"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "每次你想拿你的备用马铃薯时，你总会选择直接撕开一个维度裂隙，然后取物，这样确实很方便。但坦率地说，每次你用完后，裂缝都会关闭，这有点累人。好消息是，有一个简单的解决方案，虽然这种方案会对时空结构造成严重的破坏。\r\n\r\n向注魔石头中注入来自末影之眼中的一小簇低等生命，便可以制作出这一物品。它容纳裂隙艾得灵能量的能力更为地强大，几乎可以使裂隙持存。一旦控制结构被制造出来，你只需要对它施放一次裂隙法术，这一装置就会苏醒过来，稳定住这一法术裂隙。\r\n\r\n只是要注意，不要让其他东西从裂隙中进入到我们的世界。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "hedgemagic:manaweaving/worldbound_rift"
+      }
+    ]
+  },
+  "Ritual of Coalescence": {
+    "index": 10,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "聚合仪式"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "散布在这片土地上的古老地牢引起了人们的极大兴趣，尤其是因为它们的中心处似乎蕴藏着关于永久能量的秘密。这些 \"刷怪笼 \"是一种古怪的装置，它以某种方式将无限数量的任意生物的拷贝装在一个铁笼子里，在周遭黑暗的情况下，这些拷贝便会从笼中走出。摧毁这些笼子似乎会释放那些被困在里面的灵魂，但通过精心设计的仪式，也许可以迫使它们在刷怪笼外凝聚起来--也许能变成一个手持护符？\r\n\r\n为了安全起见，在进行这种黑暗魔法时，仪式必须经过精确的计算方能开始。仪式要求在中央粉笔标记上方的三步处有一个活跃的刷怪笼。如果没有，仪式就会迅速崩溃，并把你的仪式耗材和附近的东西统统抹除。"
+        }
+      },
+      {
+        "type": "image",
+        "location": "hedgemagic:textures/guide/coalescence.png",
+        "width": 80,
+        "height": 102
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "How to set up the ritual: floating pig spawner sold separately."
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "hedgemagic:rituals/coalescence"
+      }
+    ]
+  },
+  "Coalesced Spawner": {
+    "index": 10,
+    "category": "artifice",
+    "sections": [
+      {
+        "type": "title",
+        "value": "聚合刷怪笼"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "把灵魂从刷怪笼里剥离出来，似乎就切断了它曾经拥有的与某种非自然力量源的联系，正是这一力量源，能够使远古者召唤出生命。幸运的是，笼上的物理形态符文似乎大部分都完好无损，所以只要稍加小心地处理一下，我或许就能将其上的魔咒连接至更容易获得的力量源，即这一世界当中的魔力。\r\n\r\n笼子里的虚空似乎很乐意吸干你和世界本身的每一丝魔力，如果你想让它纵情狂吸的话，谨慎的做法是只让它以更可控的来源为食--在它的附近放几块魔力水晶应该行了。至于如果虚空碰巧从笼子里挣脱的后果，我还是不要去想为好。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "hedgemagic:manaweaving/coalesced_spawner"
+      }
+    ]
+  },
+  "version": "1.0.0"
+}

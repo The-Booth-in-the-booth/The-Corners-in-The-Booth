@@ -1,0 +1,253 @@
+{
+  "Soulsearcher's Lens": {
+    "index": 1,
+    "category": "artifice",
+    "sections": [
+      {
+        "type": "title",
+        "value": "寻魂者棱镜"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我或许能在不伤害对象的情况下，获得填充水晶护符所需的精华。不过，只有使用特别纯净的水晶才能满足如此的操作需求。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "mna:manaweaving/crystal_phylactery"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "arcaneadditions:manaweaving/soulsearchers_lens"
+      }
+    ]
+  },
+  "Component: Doom": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "终末"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以吸取末地的魔法，增加目标所受的伤害。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/doom"
+      }
+    ]
+  },
+  "Component: Enrage": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "激怒"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我已经学会如何利用敌人的基本战斗或逃跑反应。在被激怒时，他们会被迫攻击我。不幸的是，激怒敌人也会伴随着一定的代价，那就是使他们变得更加可怕，但我应该应付得过来……或许？"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/enrage"
+      }
+    ]
+  },
+  "Component: Ice Block": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "冰块"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以利用冰之力来暂时保护我的目标，并恢复他们的生命力。 虽然他们会因此而免疫伤害，但也会无法移动。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/ice_block"
+      }
+    ]
+  },
+  "Component: Life Link": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "生命连接"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "通过连接彼此的生命力，我们能够在短时间内分享并减少对方的痛苦。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/life_link"
+      }
+    ]
+  },
+  "Component: Path": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "通路"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我行之处，大地屈服，道路自现，畅行无阻。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/path"
+      }
+    ]
+  },
+  "Component: Plow": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "犁地"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以唤来潺潺流水，浇灌干涸的土地。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/plow"
+      }
+    ]
+  },
+  "Component: Polymorph": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "变形"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以利用水的可变性来改变自己的基本形态。 首先，我需要将我想成为的生物的精华充入水晶护符中。然后，我一只手拿着法术，另一只手拿着护符。护符内的精华决定了你变形的对象。\r\n\r\n增强过后的法术效果，可以让我变身为更强大的形态。\r\n\r\n(注意：如果没有加载模组 Budschie's Morph，这个构件将不可用）。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/polymorph"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "mna:manaweaving/crystal_phylactery"
+      }
+    ]
+  },
+  "Component: Strip": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "去皮"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以召来风之力，为我去除树木以及原木上的树皮。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/path"
+      }
+    ]
+  },
+  "Component: Tranfuse": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "生命传输"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以操纵我周围人的生命力，将其转移到自身当中，进而增强我自己的生命力。我想知道我是否能够做相反的事情：比如，以扣除我自己的生命值，恢复目标的生命力？我感觉我最好不要实验我的这个想法。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/tranfuse"
+      }
+    ]
+  },
+  "Component: Tree Stride": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "踏木前行"
+      },
+      {
+        "type": "text",
+        "json": {
+          "text": "我可以利用树木进行快速传送，沿着树根旅行到世界上的其他地点。"
+        }
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "arcaneadditions:components/tree_stride"
+      }
+    ]
+  },
+  "version": "1.0.0a"
+}
